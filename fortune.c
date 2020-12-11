@@ -1229,7 +1229,7 @@ register STRFILE	*tp;
 {
 	tp->str_numstr = 0;
 	tp->str_longlen = 0;
-	tp->str_shortlen = ~((unsigned long)0);
+	tp->str_shortlen = ~((unsigned int)0);
 }
 
 /*
